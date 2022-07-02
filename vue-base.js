@@ -174,6 +174,6 @@ module.exports = {
     'vue/static-class-names-order': 'error',
     'vue/v-on-function-call': 'error',
     'vue/valid-v-slot': 'off',
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
   },
 }

@@ -44,7 +44,7 @@
   "keywords": [
     "ESLint"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 7.18.0"
   },
