@@ -1,0 +1,55 @@
+{
+  "author": "bkpk",
+  "name": "eslint-config-bkpk",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/bkpkio/eslint-config-bkpk/issues"
+  },
+  "description": "Bkpk standard ESLint configurations",
+  "devDependencies": {
+    "eslint": ">=7.32.0",
+    "prettier": "^2.4.1",
+    "prettier-config-bkpk": "^0.0.1",
+    "typescript": "^4.4.3"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-only-error": "^1.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-vue": "^7.19.1",
+    "eslint-plugin-vue-scoped-css": "^1.3.0",
+    "eslint-plugin-xss": "^0.1.11"
+  },
+  "homepage": "https://github.com/bkpk/eslint-config-bkpk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bkpk/eslint-config-bkpk.git"
+  },
+  "keywords": [
+    "ESLint"
+  ],
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "eslint": ">= 7.18.0"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix .",
+    "pub": "npm version patch --force && npm publish"
+  }
+}
